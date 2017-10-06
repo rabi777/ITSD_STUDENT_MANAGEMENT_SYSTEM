@@ -1,0 +1,58 @@
+<div class="sidebar">
+    <nav class="sidebar-nav">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href=""><i class="icon-speedometer"></i> ITSD </a>
+            </li>
+
+            <li class="nav-title">
+                MENU
+            </li>
+             <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Forms</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'std:interest_student_form' %}"><i class="icon-puzzle"></i> Interested Students Regitration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'std:register_form' %}"><i class="icon-puzzle"></i> ITSD Students Registration</a>
+                    </li>
+                </ul>
+            </li>
+             <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Tables</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'std:interested_student_table' %}"><i class="icon-puzzle"></i> Interested Students Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'std:register_table' %}"><i class="icon-puzzle"></i> ITSD Students Table</a>
+                    </li>
+                </ul>
+            </li>
+             <li class="nav-item nav-dropdown">
+                <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Topic & Course</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'course:register_topic' %}"><i class="icon-puzzle"></i> Create Topic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'course:create_course' %}"><i class="icon-puzzle"></i> Create Course </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'course:create_class' %}"><i class="icon-puzzle"></i> Create Class</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'course:topic_list'  %}"><i class="icon-puzzle"></i>Topic Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'course:course_list'  %}"><i class="icon-puzzle"></i>Course Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'course:class_list'  %}"><i class="icon-puzzle"></i>Class Table</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
